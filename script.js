@@ -30,6 +30,10 @@ listContainerEl.addEventListener(
   false
 );
 
-function saveDate() {
+const saveDate = () => {
   localStorage.setItem("data", listContainerEl.innerHTML);
-}
+};
+
+const showTask = () => {
+  listContainerEl.innerHTML = localStorage.getItem("data");
+};
