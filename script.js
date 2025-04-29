@@ -37,3 +37,4 @@ const saveDate = () => {
 const showTask = () => {
   listContainerEl.innerHTML = localStorage.getItem("data");
 };
+showTask();
