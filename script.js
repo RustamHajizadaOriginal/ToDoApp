@@ -27,4 +27,6 @@ listContainerEl.addEventListener(
   false
 );
 
-function saveDate() {}
+function saveDate() {
+  localStorage.setItem("data", listContainerEl.innerHTML);
+}
