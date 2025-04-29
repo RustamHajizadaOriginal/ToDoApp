@@ -26,3 +26,5 @@ listContainerEl.addEventListener(
   },
   false
 );
+
+function saveDate() {}
