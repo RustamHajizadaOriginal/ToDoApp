@@ -21,8 +21,10 @@ listContainerEl.addEventListener(
   function (e) {
     if (e.target.tagName === "LI") {
       e.target.classList.toggle("checked");
+      saveDate();
     } else if (e.target.tagName === "SPAN") {
       e.target.parentElement.remove();
+      saveDate();
     }
   },
   false
